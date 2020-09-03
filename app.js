@@ -17,6 +17,6 @@ app.post('/register',(req,res)=>{
     res.send('success');
 })
 
-app.listen(process.env.PORT, () => {
+app.listen(3000, () => {
   console.log(`Example app listening at http://localhost:${port}`)
 })
